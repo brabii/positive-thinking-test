@@ -4,17 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Partition {
-	public static void main(String[] args) {
-		List<Integer> in = new ArrayList<Integer>();
-		in.add(1);
-		in.add(2);
-		in.add(3);
-		in.add(4);
-		in.add(5);
-		int size = 3;
-		
-		System.out.println(partition(in, size));
-	}
 
 	public static List<List<Integer>> partition(List<Integer> in, int size) {
 		List<List<Integer>> rs = new ArrayList<>();
