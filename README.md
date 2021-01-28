@@ -5,7 +5,7 @@ Sujet de test:
 		partition([1,2,3,4,5], 3) retourne: [ [1,2,3], [4,5] ]
 		partition([1,2,3,4,5], 1) retourne: [ [1], [2], [3], [4], [5] ]
 
-Instructions pour executer l'application.
+Instructions pour executer l'application:
 	1- cloner l'application depuis mon repo github fourni dans votre machine:
 		git clone git@github.com:brabii/positive-thinking-test.git
 	2- avoir maven 3 et java 1.8 installée est un prérequis au build de l'application.
